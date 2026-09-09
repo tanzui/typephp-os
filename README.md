@@ -260,7 +260,7 @@ git push -u origin main
 
 ### 许可证
 
-当前仓库尚未选择许可证。公开发布前，请根据你的使用和再分发计划添加合适的 <code>LICENSE</code> 文件。
+本项目采用 MIT License，详见 [LICENSE](LICENSE)。版权归属为 `TypePHP OS contributors`；发布前可以将 LICENSE 第一行版权归属改成你的个人姓名或组织名称。
 
 ## English
 
@@ -475,4 +475,4 @@ Because <code>.gitignore</code> excludes build products and the local TypePHP to
 
 ### License
 
-No license has been selected yet. Add an appropriate <code>LICENSE</code> file before public reuse or redistribution.
+This project is released under the MIT License; see [LICENSE](LICENSE). The copyright holder is currently listed as `TypePHP OS contributors`. Replace that line with your name or organization before publishing if needed.
