@@ -239,25 +239,6 @@ halt
 5. 设计 TypePHP 用户态程序的加载和系统调用接口；
 6. 再逐步扩大 TypePHP 可使用的运行时能力。
 
-### 发布到 GitHub
-
-本地仓库初始化和首次提交：
-
-~~~powershell
-git init -b main
-git add .
-git commit -m "初始化 TypeOS 项目"
-~~~
-
-创建 GitHub 空仓库后，替换下面的地址：
-
-~~~powershell
-git remote add origin https://github.com/<your-name>/<your-repository>.git
-git push -u origin main
-~~~
-
-由于 <code>.gitignore</code> 会排除构建物和本地工具链，建议将 <code>build/typeos.iso</code> 和 <code>build/typeos.img</code> 上传到 GitHub Releases。
-
 ### 许可证
 
 本项目采用 MIT License，详见 [LICENSE](LICENSE)。版权归属为 `TypePHP OS contributors`；发布前可以将 LICENSE 第一行版权归属改成你的个人姓名或组织名称。
@@ -453,25 +434,6 @@ Automated QEMU boot testing is not configured yet. Before publishing a Release, 
 4. Add disk access and a read-only filesystem;
 5. Design a TypePHP user-mode loader and syscall ABI;
 6. Gradually expand the TypePHP runtime available to the kernel and user programs.
-
-### Publishing to GitHub
-
-Initialize and create the first local commit:
-
-~~~powershell
-git init -b main
-git add .
-git commit -m "初始化 TypeOS 项目"
-~~~
-
-After creating an empty GitHub repository, replace the placeholder URL:
-
-~~~powershell
-git remote add origin https://github.com/<your-name>/<your-repository>.git
-git push -u origin main
-~~~
-
-Because <code>.gitignore</code> excludes build products and the local TypePHP toolkit, publish <code>build/typeos.iso</code> and <code>build/typeos.img</code> as GitHub Release assets.
 
 ### License
 
