@@ -12,6 +12,12 @@ TypeOS 是一个用于学习操作系统启动流程、裸机硬件和 TypePHP A
 
 当前版本是 <code>0.1.0</code>，目标是先把“TypePHP 代码进入真正的可启动镜像”这条链路跑通。它不是 Linux 内核，也不提供完整的 POSIX 兼容层。
 
+### 运行截图
+
+TypePHP OS 已在 VMware 虚拟机中启动并运行：
+
+![TypePHP OS 在 VMware 中运行](assets/typephp-os-v0.1.0-vmware.png)
+
 ### 当前功能
 
 - BIOS 启动扇区加载内核；
@@ -83,6 +89,9 @@ typephp/
 ├── hal.stub.php              硬件函数的 TypePHP 声明
 ├── kernel.php                TypeOS 主要 TypePHP 代码
 └── project.yml               tpc 项目配置
+
+assets/
+└── typephp-os-v0.1.0-vmware.png  VMware 运行截图
 
 build.ps1                     TypePHP 生成、编译、链接和镜像制作脚本
 run.ps1                       QEMU 启动脚本
@@ -251,6 +260,12 @@ TypeOS is a small educational Linux/Unix-like operating system prototype. It boo
 
 The current version is <code>0.1.0</code>. The immediate goal is to prove that the main OS policy and shell logic can be written in TypePHP and compiled into a real bootable image. TypeOS is not the Linux kernel and does not provide a complete POSIX compatibility layer.
 
+### Runtime Screenshot
+
+TypePHP OS booted and running in a VMware virtual machine:
+
+![TypePHP OS running in VMware](assets/typephp-os-v0.1.0-vmware.png)
+
 ### Features
 
 - BIOS boot sector and kernel loading;
@@ -301,6 +316,7 @@ kernel/                     Protected-mode entry, HAL, and runtime adapter
 typephp/kernel.php          Main TypePHP policy and shell code
 typephp/hal.stub.php        TypePHP declarations for hardware calls
 typephp/project.yml         tpc project configuration
+assets/typephp-os-v0.1.0-vmware.png  VMware runtime screenshot
 build.ps1                   TypePHP generation and image build script
 run.ps1                     QEMU launcher
 ~~~
