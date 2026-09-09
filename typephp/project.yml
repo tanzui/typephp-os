@@ -1,0 +1,9 @@
+name: typeos-kernel
+version: 0.1.0
+mode: bin
+optimize: 2
+build-dir: ../build/typephp
+
+sources:
+  - hal.stub.php
+  - kernel.php

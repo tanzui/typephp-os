@@ -1,0 +1,16 @@
+* text=auto
+
+*.S text eol=lf
+*.php text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+*.ps1 text eol=crlf
+
+*.bin binary
+*.elf binary
+*.img binary
+*.iso binary
+*.exe binary
+*.dll binary
+*.lib binary
+*.zip binary

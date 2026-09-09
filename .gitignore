@@ -1,0 +1,17 @@
+# 构建生成物：ISO、软盘镜像、ELF、对象文件和 tpc 中间文件。
+/build/
+
+# 本地 TypePHP/ PHPX 工具包体积较大，且不作为项目源码发布。
+# 当前目录仍保留它，build.ps1 会优先使用该目录。
+/toolchain/
+
+# IDE 和本地编辑器文件。
+.idea/
+.vscode/
+*.suo
+*.user
+
+# 日志和临时文件。
+*.log
+*.tmp
+*.bak
